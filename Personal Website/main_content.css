@@ -1,0 +1,63 @@
+@font-face {
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+    font-family: Nunito;
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    font-family: Playfair Display;
+}
+
+main {
+    padding-left: 45px;
+    position: absolute;
+    top: 120px;
+    bottom: 200px;
+    left: 50px;
+    right: 500px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 900;
+    font-family: Playfair Display, Times New Roman;
+    color: rgba(91, 219, 130, 1);
+    -webkit-text-stroke: 0.5px black;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: Playfair Display, Times New Roman;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Playfair Display, Times New Roman;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+main p {
+    font-family: Nunito, Arial;
+    margin: 5px 0;
+    font-weight: 650;
+}
+
+#course {
+    font-weight: 850;
+}
+
+#download-cv {
+    margin-top: 25px;
+    padding: 8px 18px;
+    background-color: rgba(180, 248, 200, 1);
+    border-radius: 8px;
+    border: 3px solid rgba(120, 202, 144, 1);
+    cursor: pointer;
+    font-weight: 500;
+    transition: filter 0.08s linear;
+}
+
+#download-cv:hover {
+    filter: brightness(90%);
+}
