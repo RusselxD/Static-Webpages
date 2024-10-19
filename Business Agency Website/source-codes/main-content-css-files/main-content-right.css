@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(../resources/fonts/Ubuntu-Bold.ttf);
+    src: url(../resources/fonts/Ubuntu-Regular.ttf);
+}
+
+.main-right-container {
+    position: relative;
+}
+
+#main-content-model {
+    position: absolute;
+    right: 100px;
+    bottom: 90px;
+    z-index: 10;
+}
+
+#main-content-model-bottom-half {
+    position: absolute;
+    right: 100px;
+    bottom: 14px;
+    z-index: 10;
+}
+
+#left-arrow-vector {
+    position: absolute;
+    right: 420px;
+    top: 120px;
+}
+
+#right-arrow-vector {
+    position: absolute;
+    right: 50px;
+    bottom: 160px;
+    z-index: 15;
+}
+
+#blue-paint-vector {
+    position: absolute;
+    right: 97px;
+    bottom: 14px;
+    z-index: 1;
+}
+
+#orange-paint-vector {
+    position: absolute;
+    right: 0;
+    bottom: 196px;
+    z-index: 1;
+}
+
+#ratings-container {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    z-index: 15;
+
+    width: 220px;
+    height: 130px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ratings-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#rating,
+stars {
+    font-family: Ubuntu;
+}
+
+#rating {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+#stars {
+    font-size: 24px;
+    color: rgba(255, 135, 108, 1);
+}
+
+.rating-dp {
+    width: 33px;
+    height: 33px;
+    border-radius: 30px;
+    object-fit: cover;
+    border: 3px solid white;
+    margin: 0 -5px;
+}

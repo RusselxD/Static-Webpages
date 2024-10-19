@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(../resources/fonts/Ubuntu-Bold.ttf);
+    src: url(../resources/fonts/Ubuntu-Regular.ttf);
+}
+
+.main-left-container {
+    padding: 60px 0 0 145px;
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+#vector-1 {
+    position: absolute;
+    top: 190px;
+    left: 485px;
+}
+
+.main-left-container-verified-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#verified-text {
+    color: rgba(241, 114, 22, 1);
+    margin-left: 8px;
+}
+
+#main-title {
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 130%;
+    margin-bottom: 25px;
+}
+
+#main-definition {
+    width: 550px;
+    color: rgba(116, 117, 130, 1);
+    font-size: 20px;
+    line-height: 180%;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#get-started-button-1,
+#watch-video-button {
+    border: none;
+    border-radius: 100px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#get-started-button-1 {
+    cursor: pointer;
+    color: white;
+    background: rgb(255, 105, 141);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 105, 141, 1) 0%,
+        rgba(251, 63, 108, 1) 100%
+    );
+    padding: 25px 40px;
+    letter-spacing: 1.3px;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.43);
+    transition: filter 0.05s linear;
+}
+
+#get-started-button-1:hover {
+    filter: brightness(0.9);
+}
+
+#watch-video-button {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(40, 44, 75, 1);
+    padding: 24px 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: background-color 0.08s linear;
+}
+
+#watch-video-button:hover {
+    background-color: rgb(155, 158, 176);
+}
+
+#watch-video-icon {
+    margin-right: 8px;
+}

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(../resources/fonts/Ubuntu-BoldItalic.ttf);
+    src: url(../resources/fonts/Ubuntu-Bold.ttf);
+    src: url(../resources/fonts/Ubuntu-Regular.ttf);
+}
+
+header {
+    display: flex;
+    /* background-color: rgb(190, 190, 255); */
+    position: relative;
+    width: 80%;
+    margin: 10px auto 0 auto;
+}
+
+#logo-container {
+    width: 240px;
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.peach-color {
+    color: rgba(251, 63, 108, 1);
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 20px;
+    font-family: Ubuntu;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+}
+
+nav li {
+    float: left;
+    padding: 15px 30px;
+}
+
+.nav-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-underlines {
+    height: 3px;
+    width: 0%;
+    background-color: rgba(251, 63, 108, 1);
+    transition: width 0.15s ease-in-out;
+}
+
+.nav-options:hover {
+    color: rgba(251, 63, 108, 1);
+}
+
+.nav-options:hover .nav-underlines {
+    height: 3px;
+    width: 60%;
+    color: rgba(251, 63, 108, 1);
+}
+
+#nav-button {
+    font-weight: bold;
+    border: 2px solid rgba(255, 105, 141, 0.5);
+    border-radius: 30px;
+    margin-left: 15px;
+
+    cursor: pointer;
+    transition: color 0.1s linear, background-color 0.1s linear;
+}
+
+#nav-button:hover {
+    background: rgb(255, 105, 141);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 105, 141, 1) 0%,
+        rgba(251, 63, 108, 1) 100%
+    );
+    color: white;
+}

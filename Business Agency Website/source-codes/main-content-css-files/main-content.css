@@ -1,0 +1,29 @@
+main {
+    position: relative;
+    margin: 0 30px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 55% 1fr;
+}
+
+#main-right-vector {
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    background-color: rgba(255, 100, 137, 0.1);
+    /* background-color: rgb(255, 100, 136); */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 900px;
+}
+
+#main-left-vector {
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    background-color: rgba(255, 100, 137, 0.1);
+    /* background-color: rgb(255, 100, 136); */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 350px;
+}
