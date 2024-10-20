@@ -1,0 +1,12 @@
+#partners-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: 0 30px;
+    height: 140px;
+}
+
+.partner-logo {
+    height: 40px;
+}

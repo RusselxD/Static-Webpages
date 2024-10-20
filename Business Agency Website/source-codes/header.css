@@ -7,7 +7,6 @@
 
 header {
     display: flex;
-    /* background-color: rgb(190, 190, 255); */
     position: relative;
     width: 80%;
     margin: 10px auto 0 auto;
@@ -84,7 +83,7 @@ nav li {
     margin-left: 15px;
 
     cursor: pointer;
-    transition: color 0.1s linear, background-color 0.1s linear;
+    transition: color 0.03s linear, background-color 0.1s linear;
 }
 
 #nav-button:hover {

@@ -7,7 +7,6 @@
 .main-left-container {
     padding: 60px 0 0 145px;
     position: relative;
-    /* border: 2px solid black; */
 }
 
 #vector-1 {
@@ -24,7 +23,6 @@
 }
 
 #verified-text {
-    color: rgba(241, 114, 22, 1);
     margin-left: 8px;
 }
 
@@ -85,11 +83,13 @@
     padding: 24px 30px;
     margin-left: 30px;
     cursor: pointer;
-    transition: background-color 0.08s linear;
+    border: 2px solid rgba(155, 158, 176, 0);
+    transition: border 0.08s linear;
 }
 
 #watch-video-button:hover {
-    background-color: rgb(155, 158, 176);
+    /* background-color: rgb(155, 158, 176); */
+    border: 2px solid rgb(155, 158, 176);
 }
 
 #watch-video-icon {

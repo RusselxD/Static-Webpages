@@ -1,11 +1,22 @@
 @font-face {
-     font-family: Ubuntu;
-     src: url(../resources/fonts/Ubuntu-Bold.ttf);
-     src: url(../resources/fonts/Ubuntu-Regular.ttf);
- }
-
-p, h1, button{
-     font-family: Ubuntu, Arial;
-     margin: 0;
-     display: inline-block;
+    font-family: Ubuntu;
+    src: url(../resources/fonts/Ubuntu-Bold.ttf);
+    src: url(../resources/fonts/Ubuntu-Regular.ttf);
 }
+
+p,
+h1,
+button {
+    font-family: Ubuntu, Arial;
+    margin: 0;
+    display: inline-block;
+}
+
+.orange-text {
+    display: block;
+    color: rgba(241, 114, 22, 1);
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+

@@ -8,8 +8,7 @@ main {
 
 #main-right-vector {
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
-    background-color: rgba(255, 100, 137, 0.1);
-    /* background-color: rgb(255, 100, 136); */
+    background-color: rgba(255, 100, 137, 0.080);
     position: absolute;
     right: 0;
     bottom: 0;
@@ -19,8 +18,7 @@ main {
 
 #main-left-vector {
     clip-path: polygon(0 0, 0% 100%, 100% 100%);
-    background-color: rgba(255, 100, 137, 0.1);
-    /* background-color: rgb(255, 100, 136); */
+    background-color: rgba(255, 100, 136, 0.080);
     position: absolute;
     left: 0;
     right: 0;
