@@ -56,25 +56,6 @@
     font-weight: bold;
 }
 
-#get-started-button-1 {
-    cursor: pointer;
-    color: white;
-    background: rgb(255, 105, 141);
-    background: linear-gradient(
-        90deg,
-        rgba(255, 105, 141, 1) 0%,
-        rgba(251, 63, 108, 1) 100%
-    );
-    padding: 25px 40px;
-    letter-spacing: 1.3px;
-    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.43);
-    transition: filter 0.05s linear;
-}
-
-#get-started-button-1:hover {
-    filter: brightness(0.9);
-}
-
 #watch-video-button {
     display: flex;
     align-items: center;
@@ -88,7 +69,6 @@
 }
 
 #watch-video-button:hover {
-    /* background-color: rgb(155, 158, 176); */
     border: 2px solid rgb(155, 158, 176);
 }
 

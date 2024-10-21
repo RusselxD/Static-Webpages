@@ -57,7 +57,7 @@
 }
 
 .service:hover {
-    transform: scale(1.010);
+    transform: scale(1.01);
     border: 1px solid rgba(0, 0, 0, 0.586);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.185);
 }

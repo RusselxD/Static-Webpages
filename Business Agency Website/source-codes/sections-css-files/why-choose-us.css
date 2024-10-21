@@ -5,24 +5,16 @@
 }
 
 #why-choose-us-container {
-    height: 580px;
     background-color: rgba(40, 44, 75, 1);
-    margin: 0 30px;
-
     display: grid;
-    grid-template-columns: 55% 1fr;
-
     position: relative;
     z-index: 1;
+    height: 580px;
+    margin: 0 30px;
+    grid-template-columns: 55% 1fr;
 }
 
-#why-choose-us-left-vector {
-    clip-path: polygon(0 0, 0% 100%, 100% 100%);
-    background-color: rgba(255, 255, 255, 0.02);
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+#why-choose-us-container .blue-background-left-vector {
     top: 180px;
 }
 
@@ -37,17 +29,6 @@
     position: relative;
 }
 
-#why-choose-us-right-vector {
-    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-    background-color: rgba(255, 255, 255, 0.02);
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 2;
-}
-
 #why-choose-us-label {
     margin-bottom: 15px;
 }
@@ -56,7 +37,7 @@
     color: white;
     font-weight: bold;
     font-size: 2.5em;
-    width: 90%;
+    width: 80%;
     line-height: 140%;
     display: block;
     margin-bottom: 25px;

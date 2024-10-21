@@ -4,12 +4,35 @@
     src: url(../resources/fonts/Ubuntu-Regular.ttf);
 }
 
+body,
+html {
+    margin: 0;
+}
+
 p,
 h1,
-button {
+button,
+label,
+input,
+textarea {
     font-family: Ubuntu, Arial;
     margin: 0;
-    display: inline-block;
+    display: block;
+}
+
+.logo-container {
+    width: 240px;
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container .peach-color {
+    color: rgba(251, 63, 108, 1);
 }
 
 .orange-text {
@@ -19,4 +42,41 @@ button {
     font-weight: 400;
 }
 
+.pink-button {
+    cursor: pointer;
+    color: white;
+    background: rgb(255, 105, 141);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 105, 141, 1) 0%,
+        rgba(251, 63, 108, 1) 100%
+    );
+    padding: 25px 40px;
+    letter-spacing: 1.3px;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.43);
+    transition: filter 0.05s linear;
+}
 
+.pink-button:hover {
+    filter: brightness(0.9);
+}
+
+.blue-background-right-vector {
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    background-color: rgba(255, 255, 255, 0.02);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.blue-background-left-vector {
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    background-color: rgba(255, 255, 255, 0.02);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
